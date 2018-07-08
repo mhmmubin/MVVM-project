@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="MyWork.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyWork.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock Text="Select a Service:" Margin="10,35" HorizontalAlignment="Center" FontFamily="Cambria" FontSize="25" Style="{StaticResource HeaderTextBlockStyle}" />
+
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="70" >
+            <Button Name="addButton" Content="Add Product" FontFamily="Cambria" Margin="10" Click="addButton_Click" Padding="10" Width="150"  />
+            <Button Name="listButton" Content="See all Product" FontFamily="Cambria" Margin="10" Click="listButton_Click" Padding="10" Width="150"/>
+            <Button Name="findButton" Content="Find Product" FontFamily="Cambria" Margin="10" Click="findButton_Click" Padding="10" Width="150" />
+            <Button Name="editButton" Content="Edit Product Details" FontFamily="Cambria" Margin="10" Click="editButton_Click" Padding="10" Width="150"/>
+            
+        </StackPanel>
+
+    </Grid>
+</Page>
