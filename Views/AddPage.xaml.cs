@@ -25,7 +25,6 @@ namespace MyWork.Views
     public sealed partial class AddPage : Page
     {
         private MainViewModel viewModel;
-
         public AddPage()
         {
             this.InitializeComponent();
